@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+}
+
+#base {
+    width: 925px;
+    margin: 16px auto;
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 47px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 10px;
+}
+
+#nav {
+    font-size: small;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#searchbox {
+    margin-right: 10px;
+}
+
+button {
+    background-image: linear-gradient(to bottom, #fff, #c5c5c5);
+    border: 1px solid gray;
+}
+
+#searchbox > button {
+    width: 60px;
+}
+
+button:hover {
+    filter: drop-shadow(0px 1px 2px #000);
+}
+
+button:active {
+    background-image: linear-gradient(to top, #fff, #c5c5c5);
+}
+
+#watchArea {
+    float: left;
+    width: 640px;
+    margin-bottom: 20px;
+}
+
+.watchTitle {
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+#recommendation {
+    float: right;
+    width: 265px;
+}
+
+.video img {
+    border: 1px solid #c5c5c5;
+    width: 106px;
+    height: 64px;
+}
+
+.video {
+    width: 255px;
+    padding: 4px;
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.video:hover {
+    cursor: pointer;
+}
+
+.videoTitle {
+    width: 135px;
+}
+
+.videoTitle:hover {
+    text-decoration: underline;
+}
+
+.first {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #c5c5c5;
+    padding-bottom: 5px;
+    color: #c5c5c5;
+}
+
+.author {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: medium;
+}
+
+#footer {
+    padding-top: 10px;
+    border-top: 1px solid #c5c5c5;
+    clear: both;
+    text-align: center;
+}
